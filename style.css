@@ -1,0 +1,46 @@
+body,html{
+    background-color: #FDFFF1;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div#logo a{
+    color:#729587;
+    font-size:50px;
+    text-decoration: none;
+}
+div#logo {
+    margin-left: 5%;
+    margin-top: -50px;
+}
+ul#nav {
+        list-style-type: none;
+        font-size: 22px;
+        text-align: right;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background-image: url('background.png');
+        overflow: hidden;
+        background-position: 1%;
+        }
+ul#nav a{
+        margin:auto;
+        max-width: 90px;
+        display: block;
+        color: #ECE6D1;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        }
+ul#nav li{
+        display: inline-block;
+        }
+ul#nav a:hover{
+        background-color:#729587
+        }
+h1{
+    text-align: center;
+    color:#285B65;
+    font-size: 60px;
+    }

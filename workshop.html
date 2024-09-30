@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> HomeWork 2: Business Website</title>
+        <link rel="stylesheet" href="style.css">
+        <style type="text/css">
+            img{
+                border: 4px solid #729587;
+                border-radius: 50%;
+            }
+            h2{
+                font-size: 30px;
+                color:#285B65;
+            }
+            .center{
+                display: inline-block;
+                padding: 0;
+                margin-left:9%;
+                width: 25%;
+            }
+            .left{
+                display: inline-block;
+                padding: 0;
+                margin-left: 3%;
+                width: 25%;
+            }
+            .right{
+                display: inline-block;
+                padding: 0;
+                margin-right: 3%;
+                width: 25%;
+            }
+            h2{
+                display: inline-block;
+                text-align: center;
+                width: 565px;
+                color:#4E190E;
+            }
+            ul{  font-size: 22px;
+                display: inline-block;
+            }
+            form{
+                font-size: 22px;
+                display: inline-block;
+                background-color: #79918A;
+            }
+            .form{
+                text-align: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <ul id = "nav">
+            <li><a href='homepage.html'>Home</a></li> 
+            <li><a href='workshop.html'>Workshop</a></li>
+            <li><a href='contact.html'>Contact</a></li>
+        </ul> 
+        <div id="logo">
+            <a href="homepage.html">JadeDesigns </a>
+        </div>
+        <h1 >Workshop</h1>
+
+        <h2>3D Printing</h2>
+        <h2>Painting</h2>
+        <h2>CAD</h2>
+        <br>
+        <img src="mermaidD.jpg" class="center" align="center"> 
+        <img src="CatP.jpg" class="left" align="left">
+        <img src="MixerC.jpg" class = "right" align="right">
+        
+        <ul style="margin-left:50px; ">
+            <li>For 3D printing we will meet in Bray lab</li>
+            <li>Bring an Stl file of your choosing</li>
+            <li>Bring a laptop</li>
+        </ul>
+        <ul style ="padding-left: 180px">
+            <li>For painting we will meet in the craft center</li>
+            <li>Bring clothes your okay getting dirty with</li>
+            <li>Pick out something you want to paint!</li>
+        </ul>
+        <ul style ="padding-left: 200px">
+            <li>For CAD we will meet in Nolop</li>
+            <li>Make sure you download <br> SolidWorks/OnShape</li>
+            <li>Pick out something to CAD</li>
+        </ul>
+        <div class="form">
+            <form >
+                <label>Name: </label><br><input type ="text"><br>
+                <label>Date: </label><br><input type="date"> <br>
+                <label>Pick what to workshop: </label><br>
+                <input type="radio" name = "workshop" action = "#"> 3D Printing
+                <input type="radio" name = "workshop" action = "#"> Painting
+                <input type="radio" name = "workshop" action = "#"> CAD<br>
+                <label>Time: </label><br><input type="time"><br>
+                <input type="Submit" action="#"><br>
+            </form>
+        </div>
+       
+
+    </body>
+
+</html>
